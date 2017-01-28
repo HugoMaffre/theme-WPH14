@@ -1,0 +1,132 @@
+
+
+#bandeauLeft{width:30%;background-color: #ffd823;float:left;height:350px;padding-top:3%;padding-bottom:5%;padding-left:5%;color: #2b291a;}
+
+#bandeauRight{width:70%;background-image: url(http://primeur-cours-des-halles.fr/wp-content/uploads/2016/08/Bg-CDH-02.jpg);background-position: center center;background-size: cover;height:350px;float:right;}
+
+#bandeauAriane{width:100%;background-color: #7a755c;color: #2b291a;padding-top:2%;padding-bottom: 2%;padding-left:25%;font-family: 'Open Sans', sans-serif; letter-spacing: 2px; font-weight: 600}
+
+#blackVeilcontact{width:100%;background-color: rgba(0, 0, 0, 0.4);height:350px;float:right;padding-top:10%;padding-bottom:7%;padding-left:7%;color: #fdfdfd;}
+
+#paragContact{padding-top:5%;text-align: left;margin-bottom:5%;width:60%;margin-left:20%;}
+
+
+
+
+/*
+███████╗ ██████╗ ██████╗ ███╗   ███╗
+██╔════╝██╔═══██╗██╔══██╗████╗ ████║
+█████╗  ██║   ██║██████╔╝██╔████╔██║
+██╔══╝  ██║   ██║██╔══██╗██║╚██╔╝██║
+██║     ╚██████╔╝██║  ██║██║ ╚═╝ ██║
+╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝
+*/
+
+#contact
+{
+	margin-left:20%;
+	margin-bottom: 5%;
+	width:60%;
+}
+
+input#message, input#nom, input#sujet, input#telephone, input#email, input#societe, input#prenom, input#newsletter_email, textarea
+{
+	border-width: 0;
+	background:none;
+	color: #2b291a;
+	padding:3px;
+	width:100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size:25px;
+	font-weight: 300;
+	border-left-width: 0;
+ }
+input#nom{
+	border-bottom: 2px solid #3D3C32;
+	height:70px;
+}
+
+input#prenom{
+	border-bottom: 2px solid #2b291a;
+	height:70px;
+}
+
+input#telephone{
+	border-bottom: 2px solid #3D3C32;
+	height:70px;
+}
+
+input#email{
+	border-bottom: 2px solid #2b291a;
+	height:70px;
+}
+
+input#sujet{
+	border-bottom: 2px solid #3D3C32;
+	height:70px;
+}
+
+input#societe{
+	border-bottom: 2px solid #2b291a;
+	height:70px;
+}
+
+
+
+
+
+button {
+	border:none;
+	color: #2b291a;
+	background:none;
+	padding:3px;
+	width:40%;
+	font-family: 'Open Sans', sans-serif;
+	font-size:25px;
+	font-weight: 300;
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+
+
+/*noir underline en haut one side*/
+
+button{position: relative;opacity: 0.5;}
+button:after {display: block;position: absolute;left:0;bottom: 30px;width: 100%;height: 2px;background-color: #2b291a;content: "";transition: width 0.2s;}
+button:hover:after {width: 33%;}
+button:hover{opacity: 1;color: #2b291a;}
+
+
+textarea
+{
+	border-bottom: 2px solid #2b291a;
+	height: 18em;
+	overflow:hidden;
+}
+
+button:hover
+{
+	cursor:pointer;
+	/*
+	background-color: #ddc17a;
+	color: #1A1A1A;
+	border-color: #1A1A1A;
+	*/
+}
+
+.fleche-submit {
+	float:right;
+	padding-top: 13px;
+	padding-right:25px;
+	transition: all 0.1s linear 0s;
+}
+
+button:hover .fleche-submit{padding-right:4px; }
+

@@ -1,0 +1,346 @@
+
+
+/*sitemap*/
+#sitemap{text-align: center;padding-top: 60px;padding-bottom: 60px;}
+#sitemap a{color: #2b291a;}
+#sitemap h2{color: #2b291a;font-size: 26px;font-weight: 700;}
+#sitemap a:hover {color:#f56000;}
+.page-title{display:none;}
+
+
+/*headers pages */
+
+#bandeauLeft{width:30%;background-color: #ffd823;float:left;height:400px;padding-top:3.4%;padding-bottom:5%;padding-left:5%;color: #2b291a;}
+
+#bandeauRight{width:70%;background-image: url(http://primeur-cours-des-halles.fr/wp-content/uploads/2016/08/Bg-CDH-02.jpg);background-position: center center;background-size: cover;height:400px;float:right;}
+
+#bandeau-lapizzeria{width:100%;background-image: url(http://arkadia.digital/Aroma/wp-content/uploads/2016/11/photo-1440637475816-2e8bf1d4b6f3.jpg);background-position: center center;background-size: cover;height:400px;float:right;}
+#bandeau-lacarte{width:100%;background-image: url(http://arkadia.digital/Aroma/wp-content/uploads/2016/11/photo-1440637475816-2e8bf1d4b6f3.jpg);background-position: center center;background-size: cover;height:400px;float:right;}
+#bandeau-fruitsetlegumes{width:70%;background-image: url(http://arkadia.digital/Aroma/wp-content/uploads/2016/11/photo-1440637475816-2e8bf1d4b6f3.jpg);background-position: center center;background-size: cover;height:400px;float:right;}
+#bandeau-actu{width:100%;background-image: url(http://arkadia.digital/Aroma/wp-content/uploads/2016/11/photo-1440637475816-2e8bf1d4b6f3.jpg);background-position: center center;background-size: cover;height:400px;float:right;}
+#bandeau-contact{width:100%;background-image: url(http://arkadia.digital/Aroma/wp-content/uploads/2016/11/photo-1440637475816-2e8bf1d4b6f3.jpg);background-position: center center;background-size: cover;height:400px;float:right;}
+#bandeau-single{width:100%;background-image: url(http://arkadia.digital/Aroma/wp-content/uploads/2016/11/photo-1440637475816-2e8bf1d4b6f3.jpg);background-position: center center;background-size: cover;height:400px;float:right;}
+
+#bandeauAriane{width:100%;background-color: #431C04;color: #fdfdfd;padding-top:35px;padding-bottom: 35px;padding-left:20%;font-family: 'Open Sans', sans-serif; letter-spacing: 2px; font-weight: 600}
+
+#blackVeilbandeau{width:100%;background-color: rgba(0, 0, 0, 0.4);height:400px;float:right;padding-top:140px;padding-bottom:7%;padding-left:370px;color: #fdfdfd;}
+
+.paragraphe{padding-top:65px;text-align: left;width:1150px;margin:0 auto;}
+.paragraphe-article{padding-top:130px;padding-bottom:130px;text-align: left;width:1150px;margin:0 auto;}
+
+.ariane-text{display:inline; text-transform: uppercase; color:#fdfdfd;}
+
+#bandeauAriane li{text-transform: none; color:#fdfdfd;}
+.bodypage{padding-bottom:70px;background-color:#faf8ea;}
+/* page des articles */
+#article p{
+	font-size: 15px;
+  	font-family: "Open Sans";
+  	letter-spacing: 2px; 
+  	line-height: 25px;
+  	font-weight: 600; 
+}
+
+#article strong{
+	font-size: 16px;
+  	font-family: "Open Sans";
+  	letter-spacing: 2px; 
+  	line-height: 25px;
+  	font-weight: 800; 
+}
+
+
+#article li{
+	font-size: 15px;
+  	font-family: "Open Sans";
+  	letter-spacing: 2px; 
+  	line-height: 25px;
+  	font-weight: 600; 
+}
+
+
+
+#bandeauLeft p{font-size: 16px;line-height:15px;}
+#bgLeft{background-image:url();}
+.box-gallery-left{float:left;width:300px;text-align:center;}
+.box-gallery-center{float:left;width:300px;text-align:center;margin-left:125px;}
+.box-gallery-right{float:right;width:300px;text-align:center;margin-left:50px;}
+
+.gallery a{margin: 0 auto;}
+
+.thumbail-gallery{
+	width:300px;
+	height:200px;
+	background-position: center center;
+	background-size: cover;
+}
+
+.gallery{
+	width:1150px;
+	margin: 0 auto;
+	height:265px;
+	margin-top:70px;
+}
+
+.gallery .soustitrePage{
+	margin-bottom:40px;
+}
+
+#thumbail-gallery-left-lapizzeria{float:left;margin-bottom:30px;}
+#thumbail-gallery-center-lapizzeria{float:left;margin-bottom:30px;}
+#thumbail-gallery-right-lapizzeria{float:right;margin-bottom:30px;}
+
+.thumbail-gallery:hover .hover-gallery{opacity:0.7;}
+.hover-gallery{
+	-webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+    width:100%;height:100%;padding-top: 90px;text-align: center;opacity:0;color:#ffffff;background-color: #f56000;
+}
+
+/*///////////////////// partenaires /////////////////////////*/
+#partenaires{
+	width:1150px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+#logosPartenaires{margin-top: 50px;}
+.logoPartenaire{
+	vertical-align: middle;
+	width:180px;
+	display:inline-block;
+	margin-left: 40px;
+	opacity: 0.8;
+	-webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.logoPartenaire:hover{
+	opacity:1;
+}
+
+/*///////////////////// Labels /////////////////////////*/
+#labels{
+	width:1150px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+#logosLabels{margin-top: 50px;}
+.logoLabel{
+	vertical-align: middle;
+	width:180px;
+	display:inline-block;
+	margin-left: 40px;
+	opacity: 0.8;
+	-webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.logoLabel:hover{
+	opacity:1;
+}
+
+
+
+
+
+
+/*
+███████╗ ██████╗ ██████╗ ███╗   ███╗
+██╔════╝██╔═══██╗██╔══██╗████╗ ████║
+█████╗  ██║   ██║██████╔╝██╔████╔██║
+██╔══╝  ██║   ██║██╔══██╗██║╚██╔╝██║
+██║     ╚██████╔╝██║  ██║██║ ╚═╝ ██║
+╚═╝      ╚═════╝ ╚═╝  ╚═╝╚═╝     ╚═╝
+*/
+
+#contact
+{
+	margin-top:65px;
+	margin-left:20%;
+	margin-bottom: 5%;
+	width:60%;
+}
+
+#gform_1{
+	margin-top: 65px;
+}
+
+input, textarea
+{
+	border-width: 0;
+	background:none;
+	color: #2b291a;
+	padding:3px;
+	width:100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size:25px;
+	font-weight: 300;
+	border-left-width: 0;
+	outline: none;
+ }
+
+textarea
+{
+	border-width: 0!important;
+	background:none!important;
+}
+
+.form-nom{
+	border-bottom: 2px solid #3D3C32;
+	height:70px;
+}
+.form-prenom{
+	border-bottom: 2px solid #2b291a;
+	height:70px;
+}
+
+.form-telephone{
+	border-bottom: 2px solid #3D3C32;
+	height:70px;
+}
+
+.form-email{
+	border-bottom: 2px solid #2b291a;
+	height:70px;
+}
+
+.form-objet{
+	border-bottom: 2px solid #3D3C32;
+	height:70px;
+}
+
+.form-societe{
+	border-bottom: 2px solid #2b291a;
+	height:70px;
+}
+
+input:focus {
+	outline:none;
+}
+
+
+
+
+
+.form-message
+{
+	border-bottom: 2px solid #2b291a;
+	height: 18em;
+	overflow:hidden;
+}
+
+/*gros cheat sur les étoiles de gravityforms*/
+.gfield_required{display:none;}
+
+/*bouton newsletter*/
+button{color:#431c04;background-color: #f56000;}
+button:hover{color:#f56000;background-color: #431c04;cursor:pointer;}
+
+button {
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+button{color:#431c04;background-color: #f56000;}
+button:hover{color:#f56000;background-color: #431c04;cursor:pointer;}
+
+/* LES MESSAGES DERREURS OU DE SUCCES */
+#ggorfail, #msg_nom, #msg_sujet, #msg_email, #msg_message{
+	color: #ddc17a;
+	font-weight: 300;
+}
+
+
+/* LES MESSAGES DERREURS OU DE SUCCES */
+#ggorfail, #msg_nom, #msg_sujet, #msg_email, #msg_message{
+	color: #444444;
+	font-weight: 300;
+}
+
+
+/*COULEURS DES PLACEHOLDERS*/
+:-moz-placeholder { color: #431C04; font-family: 'Open Sans';letter-spacing: 2px;font-weight: 600;font-size:14px;} /* Firefox <= 18 */
+::-moz-placeholder { color: #431C04; font-family: 'Open Sans';letter-spacing: 2px;font-weight: 600;font-size:14px;} /* Firefox >= 19 */
+::-webkit-input-placeholder { color: #431C04; font-family: 'Open Sans';letter-spacing: 2px;font-weight: 600;font-size:14px;}
+:-ms-input-placeholder{ color: #431C04; font-family: 'Open Sans';letter-spacing: 2px;font-weight: 600;font-size:14px;} /* IE */
+
+
+#newsletter_email:-moz-placeholder { color: #431C04; font-family: 'Open Sans';letter-spacing: 2px;font-weight: 600;font-size:14px;} /* Firefox <= 18 */
+#newsletter_email::-moz-placeholder { color: #431C04; font-family: 'Open Sans';letter-spacing: 2px;font-weight: 600;font-size:14px;} /* Firefox >= 19 */
+#newsletter_email::-webkit-input-placeholder { color: #431C04; font-family: 'Open Sans';letter-spacing: 2px;font-weight: 600;font-size:14px;}
+#newsletter_email:-ms-input-placeholder{ color: #431C04; font-family: 'Open Sans';letter-spacing: 2px;font-weight: 600;font-size:14px;} /* IE */
+
+
+
+
+
+/*le bouton*/
+#gform_submit_button_1{
+    height: 46px;
+    color: #fdfdfd;
+    background-color:#431c04;
+    padding: 6px 30px 6px 31px;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight:600;
+    border:none;
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+    -webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+#gform_submit_button_1:hover {
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+	background-color: #f56000;cursor:pointer;}
+
+
+/*mentions légales */
+#mentions_legales{
+	width: 1150px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+#mentions_legales p{
+	line-height: 20px;
+}
+
+/*404 */
+#pagenotfound{
+	width: 1150px;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+
+#pagenotfound p{
+	line-height: 20px;
+}
+
+
+	
+

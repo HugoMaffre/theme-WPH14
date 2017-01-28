@@ -1,0 +1,623 @@
+/*
+ Theme Name:   WPH14
+ Theme URI:    http://arkadia.digital/
+ Description:  WPH14
+ Author:       Hugo Maffre
+ Author URI:   http://example.com
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  WPH14
+*/
+
+
+/*////////////GÉNÉRAL////////////*/
+
+body, html{margin: 0!important;padding:0!important;font-family: 'Open Sans';height:100%;width:100%;}
+body{background-color:#f0f0f0;}
+
+.clear{clear:both;}
+
+.hide{display:none;}
+
+.separation {
+	border-top: 2px solid #fdfdfd;
+    width: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.uppercase{text-transform: uppercase; color:#fdfdfd;}
+
+.titre{font-family: 'Open Sans';font-size:42px;font-weight: 100;line-height: 40px;}
+
+h1{font-family: 'Open Sans';font-size:62px !important;font-weight: 100;line-height: 52px;}
+h2{font-family: 'Open Sans';font-size:49px;font-weight: 100;line-height: 42px;-webkit-margin-before: 0em;-webkit-margin-after: 0em;}
+
+.titreItalic{font-family: 'Open Sans';font-size:45px;font-weight: 800;font-style: italic;line-height: 38px;}
+
+.smalltitre{font-family: 'Open Sans';font-size:21px;font-weight: 100;line-height: 21px;}
+.smalltitre p{font-family: 'Open Sans';font-size:21px;font-weight: 100;line-height: 21px;}
+
+.smalltitrePost{font-family: 'Open Sans';font-size:31px;font-weight: 100;line-height: 50px;}
+
+.smalltitreItalic{font-family: 'Open Sans';font-size:21px;font-weight: 600;letter-spacing: 3px;font-style: italic;line-height: 21px;}
+
+p{font-family: 'Open Sans';font-size:16px;font-weight: 500;line-height:15px;}
+
+.FooterTitle{font-family: 'Open Sans';text-transform: uppercase;letter-spacing: 2px;font-weight: 600;}
+
+.slide{height:800px;width:100%;background-color: #dadada;}
+
+.bouton-slider{
+	color: #fdfdfd;
+    background-color: #431C04;
+    padding: 18px 30px 18px 30px;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight:600;
+    border:none;
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+.bouton-slider-orange{
+	color: #fdfdfd;
+    background-color: #f56000;
+    padding: 18px 30px 18px 30px;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    font-weight:600;
+    border:none;
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+.bouton-category{
+	color: #fdfdfd;
+    background-color: #431C04;
+    padding: 18px 20px 18px 20px;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight:600;
+    width:250px;
+    border:none;
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+
+
+#chevron-bouton{margin-left: 65px;}
+.fa-chevron-right{margin-left:65px;}
+
+
+
+/*//////////// FONTS DANS LES PAGES ////////////*/
+
+.P_width_70{margin-top:30px;font-family:'Open Sans'; font-weight:100;margin-bottom:50px; font-size: 16px;line-height:26px;letter-spacing: 1px;width:750px;}
+.P_width_70 p{margin-top:30px;font-family:'Open Sans'; font-weight:100;margin-bottom:50px; font-size: 16px;line-height:26px;letter-spacing: 1px;width:750px;}
+
+.P_width_30{margin-top:23px;font-family:'Open Sans'; font-weight:400;margin-bottom:30px; font-size: 16px;line-height:26px;letter-spacing: 1px;width: 370px;}
+.P_width_30 p{margin-top:23px;font-family:'Open Sans'; font-weight:400;margin-bottom:30px; font-size: 16px;line-height:26px;letter-spacing: 1px;width: 370px;}
+
+.titrePage{font-family: 'Open Sans';font-size:31px;font-weight: 300;color:#2b291a;margin-bottom: 25px;}
+.soustitrePage{font-family: 'Open Sans';font-size:20px;color:#aca582;font-weight: 300;margin-bottom: 15px;}
+.ParagPage{	font-size: 15px;font-family: "Open Sans";letter-spacing: 2px; line-height: 25px;font-weight: 600;}
+.paragraphe p{	font-size: 15px;font-family: "Open Sans";letter-spacing: 2px; line-height: 25px;font-weight: 600;}
+#partenaires p{	font-size: 15px;font-family: "Open Sans";letter-spacing: 2px; line-height: 25px;font-weight: 600;}
+.paragContact p{font-size: 15px;font-family: "Open Sans";letter-spacing: 2px; line-height: 25px;font-weight: 400;}
+strong a{color:#ffffff !important;}
+
+
+/*//////////////////////////header menu//////////////////////////////*/
+
+
+.non-scrolled{
+	width:100%;
+	height:150px;
+	background-color: #431c04;
+	font-family: 'Open Sans', sans-serif;
+	top:0;
+	z-index:1;
+}
+
+
+.scrolled{
+	width:100%;
+	background-color: #431c04;
+	font-family: 'Open Sans', sans-serif;
+	position:fixed;
+	top: -200px;
+	z-index:1;
+	-webkit-transition: top .4s ease;
+    -moz-transition: top .4s ease;
+    -o-transition: top .4s ease;
+    transition: top .4s ease;
+}
+
+#menu li{list-style-type: none; float:right;width:160px;text-align:center;}
+
+#Stickymenu li{list-style-type: none; float:right;width:160px;text-align:center;}
+
+#menu-menu-principal-droite-1 li:nth-child(1) { width:36%; }
+#menu-menu-principal-droite-1 li:nth-child(2) { width:32%; }
+#menu-menu-principal-droite-1 li:nth-child(3) { width:32%; }
+
+
+#menu-menu-principal-gauche-1 li:nth-child(2) {width:31%;padding-right: 25px;}
+#menu-menu-principal-gauche-1 li:nth-child(3) {width:31%;}
+#menu-menu-principal-gauche-1 li:nth-child(1) {margin-left: 15px;width:31%; }
+
+/* le numéro */
+#menu-item-157 a:after{
+	display:none;
+}
+#menu-item-157 a:hover{
+	cursor:default;
+}
+#menu-item-157 a{
+	color: #fdfdfd;
+    background-color: #f56000;
+    padding: 14px 14px 14px 14px;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight:800;
+    border:none;
+}
+
+.menu-item-157{
+	width: 190px !important;
+}
+
+.menu-item-157 a:after{
+	display:none;
+}
+.menu-item-157 a:hover{
+	cursor:default;
+}
+.menu-item-157 a{
+	color: #fdfdfd;
+    background-color: #f56000;
+    padding: 14px 14px 14px 14px;
+    border-radius: 8px;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight:800;
+    border:none;
+}
+
+.menu-item-157{
+	width: 190px !important;
+}
+
+
+/*truc pour afficher/enlever le menu*/
+.show_hide_menu{
+	width: 40px;
+	height:40px;
+	background-color:#f56000;
+	color:#fdfdfd;
+	border-radius: 50%;
+	top:0;
+	right:0;
+	position:absolute;
+	z-index: 1;
+	margin-top: 53px;
+	margin-right: 60px;
+	padding-left: 13px;
+    padding-top: 11.4px;
+    display:none;
+}
+
+.show_hide_menu_sticky{
+	width: 40px;
+	height:40px;
+	background-color:#f56000;
+	color:#fdfdfd;
+	border-radius: 50%;
+	top:0;
+	right:0;
+	position:absolute;
+	z-index: 999;
+	margin-top: 35px;
+	margin-right: 60px;
+	padding-left: 13px;
+    padding-top: 11.4px;
+    display:none;
+}
+
+.show_hide_menu_sticky:hover{cursor:pointer;}
+.show_hide_menu:hover{cursor:pointer;}
+
+#menu-mobile{
+	overflow:auto;
+	width: 100%;
+    height: 100%;
+    top:100px;
+    bottom:0;
+    display:none;
+    right:200%;
+    background-color: #faf8ea;
+    transition: left 0.2s;
+    position:fixed;
+    z-index:1;
+    line-height: 60px;
+    padding-left:50px;
+    padding-top:100px;
+}
+
+#nav-menu-mobile{margin-top: 30px;text-align: left;}
+
+#nav-menu-mobile a{color:#2b291a;opacity:1;font-size: 19px;}
+
+#nav-menu-mobile a:hover{color:#f56000;}
+
+
+
+.show_hide_menu_sticky .show_hide_menu_sticky{cursor:pointer;}
+
+#navRight{margin-top: 64px;width:78%;float:right;text-align: center;padding-right:150px;}
+
+#logo{width:20%;float:left;margin-top: 43px;padding-left: 80px;}
+
+#navRight-sticky{margin-top: 46px;width:78%;float:right;text-align: center;padding-right:150px;}
+
+#logo-sticky{width:20%;float:left;margin-top: 25px; padding-left: 80px;}
+
+
+/*chache de l'animation*/
+.hide_anim{
+    width: 100px;
+    margin-top: -100px;
+    height: 210px;
+    position:absolute;
+    right:0;
+    background-color:#431c04;
+}
+
+/*PReMIER ECRAN*/
+
+/*//////////////slider en haut/////////////*/
+
+.vegas-timer-progress{display: none;}
+
+#TopLeft-one{
+	width:100%;
+	background-position: center center;
+	background-size: cover;
+	background-color: #431c04;
+	float:left;
+	height:800px;
+}
+
+.blackVeil{
+	width:100%;
+	background-color: rgba(0, 0, 0, 0.4);
+	float:left;
+	height:800px;
+	padding-top:220px;
+	padding-left:100px;
+	color: #ffffff;
+}
+
+/*///////////////// SECOND SLIDER //////////////////////*/
+
+
+
+/*trois rectanges 1/3 1/3 1/3 */
+.home_rect{
+	width:100%;height:100%;padding-top:75px;padding-left:90px;color:#fdfdfd;
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+
+.home_rect h3{color:#f56000;}
+
+/*backgrounds*/
+#home_rect_left{background-color:rgba(0, 0, 0, 0.6);}
+#home_rect_center{background-color:rgba(0, 0, 0, 0.6);}
+#home_rect_right{background-color:rgba(0, 0, 0, 0.6);}
+
+#home_rect_left:hover {background-color:rgba(59, 23, 4, 0.8)}
+#home_rect_center:hover {background-color:rgba(59, 23, 4, 0.8)}
+#home_rect_right:hover {background-color:rgba(59, 23, 4, 0.8)}
+
+
+
+.fond_three{width:33.333333333333%;height:400px;}
+#fond_three_left{float:left;background-image:url(http://arkadia.digital/Aroma/wp-content/uploads/2016/12/Photo-bloc-1.jpg);background-position: center center;background-size: cover;}
+#fond_three_center{float:left;background-image:url(http://arkadia.digital/Aroma/wp-content/uploads/2016/12/Photo-bloc-2.jpg);background-position: center center;background-size: cover;}
+#fond_three_right{float:right;background-image:url(http://arkadia.digital/Aroma/wp-content/uploads/2016/12/Photo-bloc-3.jpg);background-position: center center;background-size: cover;}
+
+
+/* deux rectanges 2/3 1/3 en dessous*/
+
+#Veil-MiddleRight{width:100%;float:left;height:100%;padding-top:140px;padding-bottom:7%;padding-left:40%;color: #fdfdfd;background-color:rgba(0, 0, 0, 0.6);}
+
+#MiddleRight{width:100%;background-attachment:fixed;background-image:url(http://arkadia.digital/Aroma/wp-content/uploads/2016/12/Photo-contact.jpg);background-position: center center;background-size: cover;height:400px;float:right;color: #2b291a;}
+
+#bgMiddleLeft{padding-top:10%;padding-left:14%;width:100%;height:100%;}
+
+#MiddleLeft{width:33.33333%;float:left;height:400px;position:absolute;background-color:rgba(255, 255, 255, 0.8);margin-top: 400px;}
+
+#MiddleLeft h3{color:#431c04;}
+
+#MiddleLeft  p{margin-bottom:50px;font-size: 16px;line-height:15px;}
+
+
+
+/*///////////////////////////// troisième slide //////////////////////*/
+
+#third-slide{background-color: #f1f1f1; color:#2b291a;padding-top:300px;padding-left: 16%;padding-right:13%;}
+
+#third-slide a{color: #2b291a; margin-top:4%;}
+  
+#third-slide a:hover{border-width: 2px 1.5px;}
+
+#fond{
+	position:absolute;
+	height: 800px;
+	width: 100%;
+	opacity: 0;
+	transition: opacity 1s;
+}
+
+
+
+
+
+/*ECRAN D'ACTU*/
+
+#titleActu{letter-spacing:2px;width: 820px;margin: 0 auto;margin-bottom: 60px;}
+
+#main-slideActu{width:1000px;color: #2b291a;margin:auto;margin: 0 auto;}
+
+#Actu{background-color: #ffffff;}
+
+#bg-actu-image-home{
+	padding-top: 130px;
+    padding-bottom: 130px;
+	width:100%;
+	height: 100%;
+	background-image: url(http://arkadia.digital/Aroma/wp-content/uploads/2016/12/fond_actualite.png);
+	background-position: center center;
+	background-size: cover;
+	color: #2b291a;
+	text-align:center;
+}
+
+#Actu h2{font-family:'Open Sans';text-transform:uppercase; letter-spacing:3px; font-size:16px;font-weight:600;float:left;margin-bottom: 90px;}
+
+#Actu h3{font-family:'Open Sans';font-size:13px;margin-top: 10px;}
+
+.slide_navigation.disabled { opacity: 0.5; }
+
+.ActuLink a{margin-bottom:40px;}
+
+/*les boutons de categories */
+#categoryTitles{margin:0 auto;width: 1060px;height: 30px;}
+
+#catleft{float:left;text-align: center;}
+#catmiddle{margin-left:20px;float:left;text-align: center;}
+#catright{margin-left:20px;float:left;text-align: center;}
+#catright-resp{margin-left:20px;float:left;text-align: center;}
+
+#actu_button_responsive{
+	display:none;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.selected {opacity:1}
+
+.hack{float:left; font-weight: bold;pointer-events: none;}
+
+.hack ul{display: inline-block;}
+
+/* LA DIV QUI CONTIENT LES POSTS */
+#posts{margin-top:5%;width:80%;margin-left:10%;}
+
+/* celle de la miniature de l'article */
+
+.thumbail{
+	width:350px;
+	height:260px;
+	background-position: center center;
+	background-size: cover;
+	float:left;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+/* celle du texte */
+
+.apercu{
+	text-align: left;
+	margin-top: 110px;
+}
+
+.apercu p{ letter-spacing: 1px;}
+
+/*DERNIER ECRAN*/
+
+#map{
+	height:450px;
+	width:100%;
+}
+
+
+
+
+/*////////////////////////////////// FOOTER ///////////////////////////////////*/
+#footer{
+	font-family: 'Open Sans', sans-serif;
+	width:100%;
+	height:350px;
+	background-color: #431c04;
+	color:#fdfdfd;
+	padding-top:50px;
+}
+
+
+
+#footer a{
+    color: #fdfdfd;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 3px;
+	-webkit-transition: color .3s ease;
+    -moz-transition: color .3s ease;
+    -o-transition: color .3s ease;
+    transition: color .3s ease;
+}
+
+#footer a:hover{color: #f56000;}
+
+
+#footer p{font-size:15px; letter-spacing:1px;line-height: 20px;color: #fdfdfd;}
+
+#footerleft{
+	margin-left: 20%;
+	width:19%;
+	float:left;
+}
+
+#footercenter{
+	float:left;
+	width:24%;
+	padding-right:4%;
+}
+
+
+#enregistrez a{font-size:14px;font-size:600;}
+#enregistrez {padding-top:3%}
+
+#footerright{
+	width:25%;
+	display:inline;
+	float:left;
+}
+
+
+input#newsletter_email {
+    border-color: #fdfdfd;
+    padding-bottom: 10px;
+    background: none;
+    color: #fdfdfd;
+    width: 90%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    outline: none;
+    border-width: 2px;
+}
+
+#envoi:hover {cursor:pointer;color:#f56000;}
+#envoi{color:#fdfdfd;background-color: transparent;border: 0!important;font-family: 'Open Sans'; text-transform: uppercase;font-weight: 700;letter-spacing: 2px;margin-left: -5px; }
+
+
+/*social */
+
+
+
+#social{
+	background-color:#431c04;
+	padding-top: 50px;
+}
+
+#socialIcons{
+	display : table;
+	margin : 0 auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+#facebook{
+	float:left;
+	width: 45px;
+	height:45px;
+	padding-left:14px;
+	border: solid 2px #fdfdfd;
+	font-size:25px;
+	color: #fdfdfd;
+}
+#google{
+	margin-left: 50px;
+	width: 45px;
+	height: 45px;
+	padding-left:10px;
+	border: solid 2px #fdfdfd;
+	font-size:25px;
+	color: #fdfdfd;
+}
+
+#facebook:hover{
+	background-color:#fdfdfd;
+	color:#431c04;
+}
+
+#google:hover{
+	background-color:#fdfdfd;
+	color:#431c04;
+}
+
+/*icones sharify*/
+.socialicon{
+	float:left;
+	width: 45px;
+	height:45px;
+	margin-right:10px;
+	padding-left:14px;
+	border: solid 2px #431C04;
+	font-size:25px;
+	color: #431C04;
+	-webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;
+    transition: background-color .3s ease;
+}
+.socialicon:hover{
+	background-color:#431C04;
+	color:#f56000;
+}
+#pieddepage{
+	bottom:0;
+	background-color:#431C04;
+	text-align:center;
+	padding-top: 30px;
+	padding-bottom:30px;
+	font-size: 12px;
+  	font-family: "Open Sans";
+  	letter-spacing: 2px; 
+  	color: #fdfdfd;
+}
+
+/*//////////////////////////// ANIMATIONS /////////////////////////////////////*/
+
+
+/*boutons*/
+
+.bouton-slider:hover {
+	background-color: #f56000;
+}
+ .bouton-slider-orange:hover {
+ 	background-color: #431c04;
+ }
+
+ .bouton-category:hover {
+ 	background-color: #f56000;
+ }
+

@@ -1,0 +1,72 @@
+#bg-actu{background-color: #fefefe;text-align: center;}
+
+#bg-actu-image{
+	width:100%;
+	height: 100%;
+	background-image: url(http://arkadia.digital/Aroma/wp-content/uploads/2016/12/fond_actualite.png);
+	background-position: center center;
+	background-size: cover;
+}
+
+#catActu01{float:left;text-align: center;color:#2b291a;width:25%;}
+#LienActu01{padding-left:55px;padding-right:55px;}
+
+#catActu02{float:left;text-align: center;color:#2b291a;width:25%;}
+#LienActu02{padding-left:80px;padding-right:80px;}
+
+#catActu03{float:left;text-align: center;color:#2b291a;width:25%;}
+#LienActu03{padding-left:55px;padding-right:55px;}
+
+#catActu04{float:left;text-align: center;color:#2b291a;width:25%;}
+#LienActu04{padding-left:58px;padding-right:58px;}
+
+#actu01, #actu02, #actu03, #actu04{
+	padding-left:30px;
+	padding-right:15px;
+}
+
+.prev-next-posts{display:none;}
+
+#bandeauAriane{ margin-bottom: 0; padding-top:35px;}
+
+#main-pageActu h2{font-family:'Open Sans';text-transform:uppercase; letter-spacing:2px; font-size:16px;font-weight:600;float:left;color:#2b291a;}
+#main-pageActu{width:1150px;text-align:center;padding-top:140px;padding-bottom: 65px;color: #2b291a;margin:auto;}
+
+.article{padding-top:5%;}
+
+.article a{text-transform: none; color: #2b291a;}
+
+#categoryTitles_actu{margin:0 auto;width: 1060px;height: 30px;margin-bottom: 90px;}
+#categoriesActu {padding-bottom:70px;}
+#categoriesActu a{opacity:1;}
+
+.thumbail-actu{	
+	width:350px;
+	height:260px;
+	background-position: center center;
+	background-size: cover;
+	float:left;
+	margin-left:50px;
+	margin-right:50px;
+}
+
+.excerpt{
+	margin-top: 20px;
+}
+.excerpt p{
+	line-height: 20px;
+}
+
+#main-pageActu a{text-transform: none;}
+
+
+.apercu-pageActu{
+	text-align: left;
+	margin-right:5%;
+    margin-bottom: 60px;
+}
+
+/*si il n'y a rien */
+#msg_actu{
+	margin-top: 100px;
+}

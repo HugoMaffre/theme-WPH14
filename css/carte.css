@@ -1,0 +1,135 @@
+
+#body-laCarte{
+	background-color:#faf8ea;
+	padding-bottom:0px;
+}
+
+
+
+/*sections générales*/
+.sectionCarte{
+	padding-top:65px;
+	border-top: 2px solid #f56000;
+	padding-bottom:65px;
+	width:1150px;
+	margin:0 auto;
+	/*border-bottom: 1px solid #2b291a;*/
+	background-color:#faf8ea;
+	color:#2b291a;
+	display: table; /*s'adapte en hauteur */
+}
+
+/* liens dans la première section */
+.lienCarte{
+	display:inline-block;
+	margin-right:30px;
+}
+
+
+
+
+
+
+/*colonnes*/
+.carte-column-left{
+	width:500px;
+	float:left;
+
+}
+
+
+
+.carte-column-right{
+	width:500px;
+	float:right;
+	
+}
+
+
+/* prix, plats et ingrédients */
+.cartTitle{
+	font-size: 20px;
+	font-weight:700;
+	margin-bottom:15px;
+	color:#f56000;
+    text-transform: uppercase;
+}
+
+#categoriesPlats{
+	text-align: center;
+	width: 100%;
+	margin-bottom: -2px;
+	background-color:#f56000;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	-webkit-transition: top .4s ease;
+    -moz-transition: top .4s ease;
+    -o-transition: top .4s ease;
+    transition: top .4s ease;
+}
+
+.categoriesPlats_sticky{
+	width:100% !important;
+	position:fixed;
+	top: 117px;
+	padding-top: 50px;
+    padding-bottom: 50px;
+	z-index:1;
+}
+
+.bouton-category-carte{
+	color: #fdfdfd;
+    background-color: #431C04;
+    padding: 18px 20px 18px 20px;
+    border-radius: 10px;
+    font-family: 'Open Sans';
+    font-size: 17px;
+    font-weight:600;
+    width:250px;
+    border:none;
+	-webkit-transition: opacity .3s ease;
+    -moz-transition: opacity .3s ease;
+    -o-transition: opacity .3s ease;
+    transition: opacity .3s ease;
+}
+
+.bouton-category-carte:hover{
+	opacity:0.8;
+}
+
+
+
+
+.plat{
+	font-weight:600;
+	font-size: 15px;
+    line-height: 21px;
+    font-weight: bold;
+    float:left;
+    text-transform: uppercase;
+    margin-top: 10px;
+	width: 350px;
+}
+
+.prix{
+	float:right;
+	margin-top: 10px;
+	font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
+    color:#f56000;
+}
+
+.ingredients{
+    width: 400px;
+	float:left;
+	font-size: 16px;
+    font-weight: 100;
+}
+
+
+/*compenser le fix du menu*/
+
+.compensator{
+	padding-top:200px !important;
+}

@@ -1,0 +1,222 @@
+
+
+@media (min-width: 1600px) {
+
+}
+
+
+@media (min-width: 1680px) {
+
+}
+
+@media (max-width: 1550px) {
+	/*rectangles 1/3*/
+	.home_rect{padding-left:60px;}
+}
+
+@media (max-width: 1490px) {
+	/*menu*/
+	#logo {width: 15%;float: left;margin-top: 43px;padding-left: 20px;}   
+	#logo-sticky {width: 15%;float: left;margin-top: 43px;padding-left: 20px;}   
+	#navRight {width: 84%;}
+	#navRight-sticky {width: 84%;}
+	#menu li {width: 140px;}
+	#Stickymenu li {width: 140px;}
+	#menu-item-157 {width: 151px !important;}
+	.menu-item-157 {width: 151px !important;}
+}
+
+@media (min-width: 1410px) {
+	
+}
+
+@media (max-width: 1268px) {
+	/*menu*/
+	#menu li{width:130px;font-size:12px;}
+	#Stickymenu li{width:130px;font-size:12px;}
+
+	/*rectangles 1/3*/
+	.home_rect{padding-left:20px;padding-top: 50px;}
+	.P_width_30 {margin-bottom: 50px;font-size: 14px;width: 310px;}
+	.P_width_30 p{margin-bottom: 50px;font-size: 14px;width: 310px;}
+	#bgMiddleLeft {padding-left: 30px;}
+
+	/*footer*/
+	#footerleft{margin-left:12%;width: 22%;}
+	#footercenter{width: 32%;}
+
+	/*boutons*/
+	#chevron-bouton {margin-left: 40px;}
+	.bouton-slider {font-size: 15px;}
+
+	/*page la pizzeria*/
+	.paragraphe {width: 950px;}
+
+	/* page contact */
+	#contact {margin-left: 10%;width: 80%;}
+}
+
+
+
+
+
+@media (max-width: 1160px) { 
+	/*le stickymenu disparait, le menu du haut passe en fixed*/
+	#menu{position:fixed;}
+	#navRight{display: none;}
+	#navRight-sticky{display: none;}
+	#menu{position:fixed;z-index: 999;}
+	#logo {width:200px;padding-left: 30px;}
+	.hide_anim{display:none;}
+	body{padding-top:150px !important;}
+	#menu-mobile{display:block;}
+	/*les polices*/
+	h2{font-size:40px;}
+	.P_width_30{margin-top: 12px;font-size: 14px;line-height: 23px;margin-bottom: 40px;width: 240px;}
+	.fond_three{height:350px;}
+	/*boutons*/
+	#chevron-bouton {margin-left: 25px;}
+	.bouton-slider {font-size: 14px;padding: 15px 20px 15px 20px;}
+	/*le premier slide*/
+	#accueil{height:600px;}
+	#TopLeft-one{height:600px;}
+	.blackVeil{padding-top: 100px;padding-left: 50px;}
+
+
+	/*le second slide*/
+	#second-slide{height: 700px;}
+	/*les home rect 1/3*/
+	.home_rect{padding-top: 25px;padding-left: 10px;}
+	#MiddleLeft{height:350px;margin-top:350px;}
+	#MiddleRight{height:350px;}
+	#MiddleLeft p {margin-bottom: 30px;font-size: 14px;}
+	/*ceux d'en dessous*/
+	#bgMiddleLeft{padding-left:10px;}
+	#Veil-MiddleRight {padding-top: 80px;padding-left: 38%;}
+
+	/* l'ecran d'actu */
+	#titleActu{width: 100%;margin-bottom: 40px;}
+	#categoryTitles{display:none;}
+	#actu_button_responsive{display:block;}
+	#bg-actu-image-home {padding-top: 50px;padding-bottom: 50px;}
+	.apercu{margin-top: 50px;width:500px;margin:0 auto;text-align:center;}
+    .thumbail{float:none;margin-left:0;margin-right:0;margin: 0 auto;}
+    .hack {float: none;}
+	#footer{display: none;}
+	#main-slideActu{width: 100%;}
+
+
+	/*page la pizzeria*/
+	.paragraphe {width: 800px;}
+	#labels{width: 800px;}
+	#partenaires{width: 800px;}
+
+	/*gallerie*/
+	.gallery{width:300px;height:800px;}
+	.box-gallery-left{float:none;margin-bottom:30px;}
+	.box-gallery-right{float:none;margin-left:0px;}
+	.box-gallery-center{float:none;margin-left:0px;margin-bottom:30px;}
+
+
+	/*LA CARTE*/
+	#categoriesPlats{display:none;}
+	.sectionCarte{width:700px;}
+	.carte-column-left{float:none;}
+	.carte-column-right{float:none;}
+	#pizzas{border:0px;}
+}
+
+/*////////////////////Le second slide avec les rectangles///////////////////////*/
+
+@media (max-width: 850px) {
+	/*titres*/
+	h1 {font-size: 45px !important;line-height: 45px;}
+	.fond_three{width:50%;}
+	#fond_three_right {float: left;}
+	#MiddleLeft{width:50%;float:right;position:relative;margin-top:0px;}
+	#MiddleRight{display:none;}
+	/*premier écran*/
+	.P_width_70{width:450px;}
+	.P_width_70 p{width:450px;} 
+
+	/*page la pizzeria*/
+	.paragraphe {width: 600px;}
+	#logosLabels{width:600px;}
+	#logosPartenaires{width:600px;}
+
+	/*bandeaux dans les pages*/
+	#bandeau-lapizzeria, #bandeau-lacarte, #bandeau-actu, #bandeau-contact, #bandeau-single{height:300px;}
+	#blackVeilbandeau{padding-top: 100px;padding-left: 100px;height:300px;}
+}
+
+
+
+@media (max-width: 668px) {
+	/*le premier slide*/
+	h1 {font-size: 35px !important;line-height: 35px;}
+	#accueil{height:450px;}
+	#TopLeft-one{height:450px;}
+	.blackVeil{padding-top: 40px;padding-left:25px;}
+	.P_width_70{line-height: 21px;font-size:14px;width:350px;margin-top: 20px;margin-bottom: 25px;}
+	.P_width_70 p{line-height: 21px;font-size:14px;width:350px;margin-top: 20px;margin-bottom: 25px;}
+
+	/*menu*/
+	.non-scrolled {height: 100px;}
+	#logo{margin-top: 25px;}
+	.show_hide_menu {margin-top: 28px;margin-right:20px;}
+	body{padding-top:100px !important;}
+
+	/*page la pizzeria*/
+	.paragraphe {width: 400px;}
+
+	/*LA CARTE*/
+	.sectionCarte{width:500px;}
+
+	/* page contact */
+	#contact {margin-left: 5%;width: 90%;}
+
+	/*bandeaux*/
+	#blackVeilbandeau{display:none;}
+}
+
+
+@media (max-width: 570px) {
+	#second-slide {height: 1400px;}
+	.fond_three{width:100%;float: none !important;}
+	#MiddleLeft{width:100%;float:none;}
+	#Actu{display:none;}
+	/*menu mobile*/
+	#nav-menu-mobile a{font-size: 17px;line-height: 15px;}
+
+	/*labels / partenaires*/
+	#logosLabels{width:300px;margin-left: 20px;}
+	#logosPartenaires{width:300px;margin-left: 20px;}
+
+	/*LA CARTE*/
+	.sectionCarte{width:400px;}
+	.carte-column-left{width:400px;}
+	.carte-column-right{width:400px;}
+}
+
+
+@media (max-width: 480px) {
+	/*menu mobile*/
+	#nav-menu-mobile a{line-height: 13px;}
+
+	/*le premier slide*/
+	h1 {font-size: 25px !important;line-height: 25px;}
+	.blackVeil{padding-left:10px;}
+	.P_width_70{line-height: 19px;font-size:13px;width:300px;margin-top: 15px;margin-bottom: 20px;}
+	.P_width_70 p{line-height: 19px;font-size:13px;width:300px;margin-top: 15px;margin-bottom: 20px;}
+
+
+	/*page la pizzeria*/
+	.paragraphe {width: 300px;}
+
+}
+
+
+@media (max-width: 320px) {
+
+
+}
